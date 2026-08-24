@@ -1,5 +1,7 @@
 <div align="center">
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4361EE,50:1F2833,100:0B0C10&height=120&section=header" alt="header"/>
+
 <img src="./assets/hero/agent-console-a2d3c79c-dark.svg" alt="Abu Abdirrahman Humaid Al-Atsary · SE Student · AI/ML · Back-End & Full-Stack" width="100%">
 
 <a href="https://github.com/hum4id">
