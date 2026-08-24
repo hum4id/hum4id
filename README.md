@@ -12,7 +12,7 @@
 
 ---
 
-## `01` ▸ Tech Arsenal
+## `01` ▸ Tech & Tools
 
 <div align="center">
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,bootstrap,figma,php,laravel&theme=dark" alt="frontend-lang"/>
