@@ -204,11 +204,11 @@ tooling for Unity games.
 <!-- ▸ Isometric contribution calendar (full year) -->
 <img src="./metrics.plugin.isocalendar.fullyear.svg" alt="Isometric contribution calendar" width="90%"/>
 
-<!-- ▸ Most-used & recently-used languages (indepth linguist analysis) -->
+<!-- ▸ Most-used languages -->
 <img src="./metrics.plugin.languages.indepth.svg" alt="Most used languages" width="90%"/>
 
-<!-- ▸ 3D contribution skyline -->
-<img src="./metrics.plugin.skyline.svg" alt="3D contribution skyline" width="90%"/>
+<!-- ▸ 3D contribution graph (github-profile-3d-contrib — reliable skyline alternative) -->
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="90%"/>
 
 </div>
 

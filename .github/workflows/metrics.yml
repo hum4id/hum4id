@@ -59,17 +59,3 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_ignored: html, css, tex, less, dockerfile
           plugin_languages_colors: github
-
-      # ── 3 · 3D contribution skyline (animated) ───────────────────────────────
-      - name: Skyline
-        uses: lowlighter/metrics@latest
-        continue-on-error: true
-        with:
-          filename: metrics.plugin.skyline.svg
-          token: ${{ secrets.METRICS_TOKEN || github.token }}
-          user: hum4id
-          base: ""
-          plugin_skyline: yes
-          plugin_skyline_compatibility: yes
-          plugin_skyline_frames: 30
-          plugin_skyline_quality: 1

@@ -1,0 +1,47 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Reliable 3D contribution graph (replaces metrics' skyline, which needs WebGL and
+# fails in CI). Generates SVGs into profile-3d-contrib/ and commits them.
+# The README embeds profile-3d-contrib/profile-night-rainbow.svg.
+# Uses the built-in token (public contribution data) — no PAT needed.
+# ──────────────────────────────────────────────────────────────────────────────
+name: 3D Contribution Graph
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D contribution SVGs
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit results (race-safe)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A profile-3d-contrib
+          if git diff --staged --quiet; then
+            echo "No changes."; exit 0
+          fi
+          git commit -m "chore: update 3D contribution graph"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && exit 0
+            echo "retry $i…"; sleep 5
+          done
+          exit 1
