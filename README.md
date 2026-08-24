@@ -53,10 +53,10 @@
 ### 🏛️ SicantikBangsa Web App 2.0.0
 `Kabupaten Kebumen · Aug 2026 – Present`
 
-Government web application for Kabupaten Kebumen. **Back-end & DevOps** developer — plus
+Government web application for Kabupaten Kebumen. Part of the **Developer Team**, plus
 community-service monitoring, evaluation & socialization with real Posyandu users.
 
-`Back-End` `DevOps` `GovTech`
+`Developer Team` `GovTech`
 
 </td>
 <td width="50%" valign="top">
@@ -88,34 +88,26 @@ Indonesia's Digdaya initiative.
 ### 🧩 D'LAS Purbalingga
 `D'LAS Purbalingga · Jan 2026 – Present`
 
-**Back-end developer** on the D'LAS Purbalingga project team.
+**Back-end & DevOps** developer on the D'LAS Purbalingga project team.
 
-`Back-End`
+`Back-End` `DevOps`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🛠️ [ec2-il2cpp-reversing-toolkit](https://github.com/hum4id/ec2-il2cpp-reversing-toolkit)
-`Reverse Engineering · Python`
+### 🎬 Makromedia Integrated System
+`CV. Makromedia Visual · 2026`
 
-A comprehensive reverse-engineering toolkit — **AArch64 binary patcher** and **Frida**
-dynamic instrumentation for Unity IL2CPP targets.
+Integrated project-management system for creative agency **CV. Makromedia Visual** —
+projects, quotations, invoices, production costs, approvals, manpower & clients with RBAC.
+Backend **NestJS + Prisma + PostgreSQL**, frontend **Next.js**.
 
-`Frida` `AArch64` `IL2CPP` `Binary Patching`
+`NestJS` `Next.js` `PostgreSQL` `RBAC`
 
 </td>
 <td width="50%" valign="top">
-
-### 🎮 [dungeon-slasher-trainer](https://github.com/hum4id/dungeon-slasher-trainer)
-`Game Hacking · C#`
-
-A complete modding suite — **in-game Dear ImGui trainer** and static metadata reflection
-tooling for Unity games.
-
-`C#` `Unity` `Dear ImGui` `Modding`
-
 </td>
 </tr>
 </table>
