@@ -34,6 +34,7 @@ jobs:
       # ── 1 · Isometric contribution calendar (full year) ──────────────────────
       - name: Isocalendar
         uses: lowlighter/metrics@latest
+        continue-on-error: true
         with:
           filename: metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN || github.token }}
@@ -46,6 +47,7 @@ jobs:
       # ── 2 · Most-used & recently-used languages (indepth linguist analysis) ───
       - name: Languages
         uses: lowlighter/metrics@latest
+        continue-on-error: true
         with:
           filename: metrics.plugin.languages.indepth.svg
           token: ${{ secrets.METRICS_TOKEN || github.token }}
@@ -53,7 +55,7 @@ jobs:
           base: ""
           plugin_languages: yes
           plugin_languages_indepth: yes
-          plugin_languages_sections: most-used, recently-used
+          plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
           plugin_languages_analysis_timeout: 15
@@ -63,6 +65,7 @@ jobs:
       # ── 3 · 3D contribution skyline (animated) ───────────────────────────────
       - name: Skyline
         uses: lowlighter/metrics@latest
+        continue-on-error: true
         with:
           filename: metrics.plugin.skyline.svg
           token: ${{ secrets.METRICS_TOKEN || github.token }}
