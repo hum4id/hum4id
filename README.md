@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="./assets/hero/agent-console-a2d3c79c-dark.svg" alt="Abu Abdirrahman Humaid Al-Atsary — SE Student · AI/ML · Back-End & Full-Stack" width="100%">
+<img src="./assets/hero/agent-console-a2d3c79c-dark.svg" alt="Abu Abdirrahman Humaid Al-Atsary · SE Student · AI/ML · Back-End & Full-Stack" width="100%">
 
 <a href="https://github.com/hum4id">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1000&color=4361EE&center=true&vCenter=true&width=780&lines=%3E+Back-end+systems%2C+data-driven+thinking.;%3E+A+habit+of+saying+yes+to+new+challenges.;%3E+Learning+by+building+%E2%80%94+shipping+real+projects.;%3E+GovTech+web+apps+%C2%B7+applied+AI+%C2%B7+bioinformatics." alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1000&color=4361EE&center=true&vCenter=true&width=780&lines=%3E+Back-end+systems%2C+data-driven+thinking.;%3E+A+habit+of+saying+yes+to+new+challenges.;%3E+Learning+by+building%2C+shipping+real+projects.;%3E+GovTech+web+apps+%C2%B7+applied+AI+%C2%B7+bioinformatics." alt="typing" />
 </a>
 
 </div>
@@ -44,7 +44,7 @@
 
 ---
 
-## `02` ▸ Projects — *building for real users*
+## `02` ▸ Projects · *building for real users*
 
 <table>
 <tr>
@@ -74,7 +74,7 @@ architecture, back-end, API integration, database management & deployment**.
 <tr>
 <td width="50%" valign="top">
 
-### 🏆 Digdaya X Hackathon — Bank Indonesia 2026
+### 🏆 Digdaya X Hackathon · Bank Indonesia 2026
 `Bank Indonesia · Mar – Aug 2026`
 
 Cross-functional developer role spanning **AI/ML, back-end, and DevOps** under Bank
@@ -100,9 +100,9 @@ Indonesia's Digdaya initiative.
 ### 🎬 Makromedia Integrated System
 `CV. Makromedia Visual · 2026`
 
-Integrated project-management system for creative agency **CV. Makromedia Visual** —
-projects, quotations, invoices, production costs, approvals, manpower & clients with RBAC.
-Backend **NestJS + Prisma + PostgreSQL**, frontend **Next.js**.
+Integrated project-management system for creative agency **CV. Makromedia Visual**,
+covering projects, quotations, invoices, production costs, approvals, manpower & clients
+with RBAC. Backend **NestJS + Prisma + PostgreSQL**, frontend **Next.js**.
 
 `NestJS` `Next.js` `PostgreSQL` `RBAC`
 
