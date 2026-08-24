@@ -1,33 +1,7 @@
-<!--
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  hum4id · GitHub Profile README                                              ║
-║  Cara pakai: buat repo public bernama PERSIS `hum4id` (username == repo),     ║
-║  lalu commit file ini sebagai README.md di root repo tersebut.               ║
-║  Sumber konten: portfolio-abu.json.                                          ║
-╚══════════════════════════════════════════════════════════════════════════════╝
--->
-
 <div align="center">
 
-<!-- ░░░ ANIMATED PROFILE CONSOLE HERO (ASCII portrait) ░░░
-     Butuh folder assets/hero/ (di-generate dari foto via GitHub-Profile-Console).
-     Pakai <img> tunggal (dark) agar render di VS Code preview & GitHub.
-     Kalau regenerate, ganti hash nama file di bawah. -->
 <img src="./assets/hero/agent-console-a2d3c79c-dark.svg" alt="Abu Abdirrahman Humaid Al-Atsary — SE Student · AI/ML · Back-End & Full-Stack" width="100%">
 
-<!-- OPSIONAL: versi responsif dark/light + mobile untuk GitHub (VS Code preview TIDAK bisa render srcset).
-     Ganti <img> di atas dengan blok ini kalau mau otomatis light/dark di GitHub:
-<picture>
-  <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-a2d3c79c-mobile-dark.svg">
-  <source media="(max-width: 760px)" srcset="./assets/hero/agent-console-a2d3c79c-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-a2d3c79c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero/agent-console-a2d3c79c-light.svg">
-  <img src="./assets/hero/agent-console-a2d3c79c-dark.svg" alt="Abu Abdirrahman Humaid Al-Atsary — SE Student · AI/ML · Back-End & Full-Stack" width="100%">
-</picture>
--->
-
-
-<!-- ░░░ TYPING SVG ░░░ -->
 <a href="https://github.com/hum4id">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1000&color=4361EE&center=true&vCenter=true&width=780&lines=%3E+Back-end+systems%2C+data-driven+thinking.;%3E+A+habit+of+saying+yes+to+new+challenges.;%3E+Learning+by+building+%E2%80%94+shipping+real+projects.;%3E+GovTech+web+apps+%C2%B7+applied+AI+%C2%B7+bioinformatics." alt="typing" />
 </a>
@@ -154,29 +128,13 @@ tooling for Unity games.
 
 <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=hum4id&hide_border=true&background=0B0C10&stroke=4361EE&ring=4361EE&fire=F72585&currStreakLabel=4361EE&sideLabels=C5C6C7&dates=808080&currStreakNum=ffffff&sideNums=ffffff" alt="streak"/>
 
-<!-- ░░░ PROFILE SUMMARY CARDS (self-contained, no token) ░░░ -->
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hum4id&theme=github_dark" alt="repos-per-language"/>
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hum4id&theme=github_dark" alt="most-commit-language"/>
 
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hum4id&theme=github_dark" alt="stats-card"/>
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=hum4id&theme=github_dark&utcOffset=7" alt="productive-time"/>
 
-<!--
-  ░░░ CONTRIBUTION SNAKE ░░░
-  NONAKTIF sampai setup selesai. Setelah repo `hum4id/hum4id` dibuat + workflow
-  snake.yml jalan (tab Actions) dan branch `output` terbentuk, HAPUS baris
-  "<!- - " dan "- ->" di sekitar blok <picture> di bawah untuk mengaktifkannya.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hum4id/hum4id/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hum4id/hum4id/output/github-contribution-grid-snake.svg"/>
-  <img width="100%" alt="contribution snake" src="https://raw.githubusercontent.com/hum4id/hum4id/output/github-contribution-grid-snake.svg"/>
-</picture>
--->
-
 <img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=hum4id&bg_color=0B0C10&color=4361EE&line=4361EE&point=F72585&area=true&hide_border=true" alt="activity"/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=hum4id&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies"/>
 
 </div>
 
@@ -184,7 +142,6 @@ tooling for Unity games.
 
 <div align="center">
 
-<!-- ░░░ DEV QUOTE (self-contained SVG) ░░░ -->
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=algolia" alt="dev-quote"/>
 
 </div>
@@ -193,21 +150,12 @@ tooling for Unity games.
 
 ## `04` ▸ GitHub Metrics
 
-<!--
-  Di-generate GitHub Actions (lowlighter/metrics) → file SVG di-commit ke root repo.
-  Muncul setelah workflow `.github/workflows/metrics.yml` jalan + secret METRICS_TOKEN diset.
-  Lihat SETUP.md.
--->
-
 <div align="center">
 
-<!-- ▸ Isometric contribution calendar (full year) -->
 <img src="./metrics.plugin.isocalendar.fullyear.svg" alt="Isometric contribution calendar" width="90%"/>
 
-<!-- ▸ Most-used languages -->
 <img src="./metrics.plugin.languages.indepth.svg" alt="Most used languages" width="90%"/>
 
-<!-- ▸ 3D contribution graph (github-profile-3d-contrib — reliable skyline alternative) -->
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="90%"/>
 
 </div>
