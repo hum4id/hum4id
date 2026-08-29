@@ -120,15 +120,11 @@ with RBAC. Backend **NestJS + Prisma + PostgreSQL**, frontend **Next.js**.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=hum4id&hide_border=true&background=0B0C10&stroke=4361EE&ring=4361EE&fire=F72585&currStreakLabel=4361EE&sideLabels=C5C6C7&dates=808080&currStreakNum=ffffff&sideNums=ffffff" alt="streak"/>
-
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hum4id&theme=github_dark" alt="repos-per-language"/>
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hum4id&theme=github_dark" alt="most-commit-language"/>
 
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hum4id&theme=github_dark" alt="stats-card"/>
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=hum4id&theme=github_dark&utcOffset=7" alt="productive-time"/>
-
-<img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=hum4id&bg_color=0B0C10&color=4361EE&line=4361EE&point=F72585&area=true&hide_border=true" alt="activity"/>
 
 </div>
 
